@@ -1,5 +1,5 @@
 
-## 👋 Hey, I'm **Ramkumar M** — _aka_ **Spidey** 🕸️  
+## 👋 Hey, I'm **Ramkumar M** 🕸️  
 `Aspiring Software Developer | Problem Solver | Tech Explorer`
 
 ---
