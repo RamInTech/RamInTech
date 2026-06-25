@@ -40,45 +40,48 @@ I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Techn
 
 <sub>Every tool here is something I actually build with — sourced from my repositories and resume.</sub>
 
-&nbsp;
+<br/><br/>
 
-`🧠 Languages`
+<b>🧠 Languages</b><br/>
+<img src="https://skillicons.dev/icons?i=python,cpp,java,ts,js,kotlin&theme=dark" alt="Python, C++, Java, TypeScript, JavaScript, Kotlin" height="48" />
 
-<img src="https://skillicons.dev/icons?i=python,cpp,java,ts,js,kotlin&theme=dark" alt="Languages" height="48" />
+<br/><br/>
 
-`🤖 AI / ML · Generative & Agentic AI`
-
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" alt="AI and ML" height="48" />
+<b>🤖 AI / ML · Generative & Agentic AI</b><br/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" alt="PyTorch, TensorFlow, scikit-learn, OpenCV" height="48" />
 <br/>
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Transformers](https://img.shields.io/badge/Transformers-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-FF6F61?style=for-the-badge)
-![CrewAI](https://img.shields.io/badge/CrewAI-FF5A5F?style=for-the-badge)
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
-![YOLO-World](https://img.shields.io/badge/YOLO--World-111F68?style=for-the-badge&logo=yolo&logoColor=white)
-![llama.cpp](https://img.shields.io/badge/llama.cpp-222222?style=for-the-badge&logo=meta&logoColor=white)
-![faster-whisper](https://img.shields.io/badge/faster--whisper-000000?style=for-the-badge&logo=openai&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG%20%2F%20Embeddings-1A7F64?style=for-the-badge&logo=databricks&logoColor=white)
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/Transformers-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white" alt="Transformers" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/LangGraph-FF6F61?style=for-the-badge" alt="LangGraph" />
+<img src="https://img.shields.io/badge/CrewAI-FF5A5F?style=for-the-badge" alt="CrewAI" />
+<img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white" alt="FAISS" />
+<img src="https://img.shields.io/badge/YOLO--World-111F68?style=for-the-badge&logo=yolo&logoColor=white" alt="YOLO-World" />
+<img src="https://img.shields.io/badge/llama.cpp-222222?style=for-the-badge&logo=meta&logoColor=white" alt="llama.cpp" />
+<img src="https://img.shields.io/badge/faster--whisper-000000?style=for-the-badge&logo=openai&logoColor=white" alt="faster-whisper" />
+<img src="https://img.shields.io/badge/RAG%20%2F%20Embeddings-1A7F64?style=for-the-badge&logo=databricks&logoColor=white" alt="RAG / Embeddings" />
 
-`🎨 Frontend`
+<br/><br/>
 
-<img src="https://skillicons.dev/icons?i=react,vite,tailwind,html,css&theme=dark" alt="Frontend" height="48" />
+<b>🎨 Frontend</b><br/>
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,html,css&theme=dark" alt="React, Vite, Tailwind, HTML, CSS" height="48" />
 <br/>
-![shadcn/ui](https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
+<img src="https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
 
-`⚙️ Backend · Data · Cloud`
+<br/><br/>
 
-<img src="https://skillicons.dev/icons?i=fastapi,sqlite,firebase,aws&theme=dark" alt="Backend" height="48" />
+<b>⚙️ Backend · Data · Cloud</b><br/>
+<img src="https://skillicons.dev/icons?i=fastapi,sqlite,firebase,aws&theme=dark" alt="FastAPI, SQLite, Firebase, AWS" height="48" />
 <br/>
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white)
-![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
+<img src="https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
+<img src="https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=white" alt="Razorpay" />
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
 
-`📱 Mobile · Tooling`
+<br/><br/>
 
-<img src="https://skillicons.dev/icons?i=androidstudio,gradle,git,github,bun,vercel,linux&theme=dark" alt="Tooling" height="48" />
+<b>📱 Mobile · Tooling</b><br/>
+<img src="https://skillicons.dev/icons?i=androidstudio,gradle,git,github,bun,vercel,linux&theme=dark" alt="Android Studio, Gradle, Git, GitHub, Bun, Vercel, Linux" height="48" />
 
 </div>
 
