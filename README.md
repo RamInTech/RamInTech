@@ -25,7 +25,7 @@
 
 I’m an applied-AI and full-stack developer who likes turning models into things people can actually use. Most of my work sits at the seam between **machine learning** and **product** — real-time computer vision, retrieval-augmented assistants, and the FastAPI + React plumbing that ships them.
 
-- 🛰️ **Building [SpatialAI](https://github.com/RamInTech/SpatialAI)** — a real-time, on-device scene-understanding pipeline: object detection & tracking → depth estimation → scene-graph reasoning → a local small language model → spoken guidance.
+- 🛰️ **Building [SpatialAI](https://github.com/RamInTech/SpatialAI)** — a real-time, fully-local **navigation aid for the visually impaired**: YOLO-World detection + Depth Anything V2 depth → a metric 3D scene graph → an on-device SLM (Phi-3-mini) that speaks one useful sentence (*"backpack 0.9 m ahead — step right"*).
 - 🧠 **Working across** computer vision, speech/audio ML, and RAG systems — from YOLO + depth models to Whisper transcription and embedding-based retrieval.
 - 🛠️ **Full-stack by default** — React + TypeScript + Tailwind front ends on FastAPI back ends, with SQLAlchemy, payments, and real deployments.
 - 🌱 **Currently going deeper on** edge/on-device LLM inference, retrieval quality, and latency-aware ML pipelines.
@@ -92,12 +92,12 @@ I’m an applied-AI and full-stack developer who likes turning models into thing
 
 ## 🚀 Featured Projects
 
-### 🛰️ [SpatialAI](https://github.com/RamInTech/SpatialAI) — Real-time on-device spatial perception
-A four-phase, real-time pipeline that understands a live camera scene and narrates it as spoken guidance — designed to run **locally**, not in the cloud.
+### 🛰️ [SpatialAI](https://github.com/RamInTech/SpatialAI) — Real-time navigation aid for the visually impaired
+Turns a single RGB camera into spoken, **metric** spatial guidance — *"backpack 0.9 m directly ahead blocking your path, step right"* — running **fully on-device**, no cloud.
 
-- **Architecture:** `detect & track` (YOLO + tracker) → `depth estimation` (Transformers) → `scene graph` (spatial relationships) → `local SLM` (Phi-3-mini via llama.cpp) → `TTS` (Kokoro).
-- **Engineering details:** modular `src/` (detector, depth, tracker, scene_graph, slm_engine, tts_engine), a **change-gate** to skip redundant inference, and **CSV latency logging** for performance profiling.
-- **Stack:** `Python` · `PyTorch` · `Ultralytics YOLO` · `Transformers` · `llama.cpp` · `sentence-transformers` · `OpenCV` · `Kokoro TTS`
+- **Architecture:** parallel perception branches — open-vocabulary detection (**YOLO-World**) + dense monocular depth (**Depth Anything V2**) → pinhole back-projection to 3D → tracked, dwell-filtered **scene graph** → on-device **SLM** (Phi-3-mini INT4, llama.cpp) → neural **TTS** (Kokoro-82M).
+- **Engineering details:** threaded capture/inference so latencies overlap, IOU tracking + Hungarian matching + EMA smoothing for stability, a semantic change-gate to suppress repeats, camera-intrinsics calibration, a `pytest` suite, and CSV latency profiling.
+- **Stack:** `Python` · `PyTorch` · `YOLO-World` · `Depth Anything V2` · `llama.cpp` · `sentence-transformers` · `OpenCV` · `Kokoro TTS`
 
 ### 🎙️ [AI Interview Twin](https://github.com/RamInTech/AI_Interview_Twin) — Real-time mock-interview scorer
 A full-stack system that runs a mock interview end-to-end: generate questions → record spoken answers → transcribe → score → coach.
@@ -124,13 +124,13 @@ A retrieval-augmented assistant grounded in a curated road-safety knowledge base
 - **Architecture:** `RAG_Model` retrieval over a ~260KB curated `knowledge_base.json` → Python API → React/TypeScript frontend.
 - **Stack:** `Python` · `RAG` · `React` · `TypeScript`
 
-### 🏎️ [GTR Motors](https://github.com/RamInTech/GTR_MOTORS) — Full-stack e-commerce platform
-A product-grade store with a real backend: catalog, orders, and payments.
+### 🔊 [Underwater Sound Classification](https://github.com/RamInTech/Underwater_Sound_Classification) — Research-grounded audio ML
+Identifies fish/marine species from underwater audio — an applied-ML project implemented from a published research paper that's included in the repo.
 
-- **Features:** product catalog with search/filter/sort, order management with quantity tracking, **Razorpay** payment integration, CORS-secured API.
-- **Stack:** `FastAPI` · `SQLAlchemy` · `SQLite` · `React` · `TypeScript` · `Razorpay`
+- **Approach:** audio feature extraction → species classification model, with a runnable demo app and a model test harness.
+- **Stack:** `Python` · `audio ML` · `NumPy` · grounded in peer-reviewed research
 
-> 🔬 **Also worth a look:** [Underwater Sound Classification](https://github.com/RamInTech/Underwater_Sound_Classification) — research-paper-grounded audio ML for fish-species identification · [IntelliLearn](https://github.com/RamInTech/IntelliLearn-Smart_Study_Assistant) — ML-powered study assistant · [air_mouse](https://github.com/RamInTech/air_mouse) — Android (Kotlin) gesture mouse.
+> 🔬 **Also worth a look:** [IntelliLearn](https://github.com/RamInTech/IntelliLearn-Smart_Study_Assistant) — ML-powered study assistant · [RAG Chatbot for LCA Tool](https://github.com/RamInTech/RAG_Chabot_for_LCA-Tool) — retrieval assistant for life-cycle assessment · [air_mouse](https://github.com/RamInTech/air_mouse) — Android (Kotlin) gesture mouse.
 
 ---
 
