@@ -23,70 +23,64 @@
 
 ## 🧭 About Me
 
-I’m an applied-AI and full-stack developer who likes turning models into things people can actually use. Most of my work sits at the seam between **machine learning** and **product** — real-time computer vision, retrieval-augmented assistants, and the FastAPI + React plumbing that ships them.
+I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Technology** (CGPA 8.99) and an applied-AI + full-stack developer who turns models into things people can actually use. My work sits at the seam between **machine learning** and **product** — real-time computer vision, retrieval-augmented assistants, agentic workflows, and the FastAPI + React plumbing that ships them.
 
 - 🛰️ **Building [SpatialAI](https://github.com/RamInTech/SpatialAI)** — a real-time, fully-local **navigation aid for the visually impaired**: YOLO-World detection + Depth Anything V2 depth → a metric 3D scene graph → an on-device SLM (Phi-3-mini) that speaks one useful sentence (*"backpack 0.9 m ahead — step right"*).
-- 🧠 **Working across** computer vision, speech/audio ML, and RAG systems — from YOLO + depth models to Whisper transcription and embedding-based retrieval.
+- 🧠 **Working across** computer vision, speech/audio ML, and RAG/agentic systems — from YOLO + depth models to Whisper transcription, embeddings, and LangChain/LangGraph workflows.
 - 🛠️ **Full-stack by default** — React + TypeScript + Tailwind front ends on FastAPI back ends, with SQLAlchemy, payments, and real deployments.
+- 🏆 **Hackathon builder** — international winner at *AI for Sustainability (UAE)* and ₹50K runner-up at *TI FORGE*; I like shipping working prototypes under pressure.
 - 🌱 **Currently going deeper on** edge/on-device LLM inference, retrieval quality, and latency-aware ML pipelines.
-- 🤝 **Open to collaborating on** applied AI, computer vision, and developer tools — and to learning from people who build serious systems.
+- 🤝 **Open to collaborating on** applied AI, computer vision, and developer tools.
 
 ---
 
 ## 🧰 Tech Stack
 
-> Everything below is drawn from what I actually build with across my repositories.
+<div align="center">
 
-**Languages**
+<sub>Every tool here is something I actually build with — sourced from my repositories and resume.</sub>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+&nbsp;
 
-**AI / ML**
+`🧠 Languages`
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+<img src="https://skillicons.dev/icons?i=python,cpp,java,ts,js,kotlin&theme=dark" alt="Languages" height="48" />
+
+`🤖 AI / ML · Generative & Agentic AI`
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" alt="AI and ML" height="48" />
+<br/>
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Transformers](https://img.shields.io/badge/Transformers-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white)
-![Ultralytics YOLO](https://img.shields.io/badge/YOLO%20(Ultralytics)-111F68?style=for-the-badge&logo=yolo&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Whisper](https://img.shields.io/badge/faster--whisper-000000?style=for-the-badge&logo=openai&logoColor=white)
-![llama.cpp](https://img.shields.io/badge/llama.cpp%20(SLM)-222222?style=for-the-badge&logo=meta&logoColor=white)
-![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-FF6F61?style=for-the-badge)
+![CrewAI](https://img.shields.io/badge/CrewAI-FF5A5F?style=for-the-badge)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+![YOLO-World](https://img.shields.io/badge/YOLO--World-111F68?style=for-the-badge&logo=yolo&logoColor=white)
+![llama.cpp](https://img.shields.io/badge/llama.cpp-222222?style=for-the-badge&logo=meta&logoColor=white)
+![faster-whisper](https://img.shields.io/badge/faster--whisper-000000?style=for-the-badge&logo=openai&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG%20%2F%20Embeddings-1A7F64?style=for-the-badge&logo=databricks&logoColor=white)
 
-**Frontend**
+`🎨 Frontend`
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,html,css&theme=dark" alt="Frontend" height="48" />
+<br/>
 ![shadcn/ui](https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-**Backend & Data**
+`⚙️ Backend · Data · Cloud`
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Uvicorn](https://img.shields.io/badge/Uvicorn-2A2A2A?style=for-the-badge&logo=gunicorn&logoColor=white)
+<img src="https://skillicons.dev/icons?i=fastapi,sqlite,firebase,aws&theme=dark" alt="Backend" height="48" />
+<br/>
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=white)
-
-**Mobile & Tooling**
-
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Jetpack/Gradle](https://img.shields.io/badge/Gradle%20(Kotlin%20DSL)-02303A?style=for-the-badge&logo=gradle&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+`📱 Mobile · Tooling`
+
+<img src="https://skillicons.dev/icons?i=androidstudio,gradle,git,github,bun,vercel,linux&theme=dark" alt="Tooling" height="48" />
+
+</div>
 
 ---
 
@@ -134,24 +128,62 @@ Identifies fish/marine species from underwater audio — an applied-ML project i
 
 ---
 
+## 🏆 Achievements & Recognition
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="56">🥇</td>
+    <td><b>AI for Sustainability — UAE</b> &nbsp;·&nbsp; <i>1st Place (International)</i><br/><sub>$125 prize for a scalable application addressing environmental challenges.</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="56">🥉</td>
+    <td><b>TI FORGE Hackathon</b> &nbsp;·&nbsp; <i>2nd Runner-Up</i><br/><sub>₹50,000 prize for architecting and presenting an IoT-driven solution.</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="56">🎯</td>
+    <td><b>TGF 2.0 Techsprint</b> — Top 10 Finalist &nbsp;&nbsp;•&nbsp;&nbsp; <b>Technova: Igniting Brilliance</b> — Top 25 Finalist</td>
+  </tr>
+</table>
+
+&nbsp;
+
+`🧩 Competitive Programming`
+
+![LeetCode](https://img.shields.io/badge/LeetCode-Knight%20%7C%20Rating%202043%20%7C%201300%2B%20solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=0D1117)
+![CodeChef](https://img.shields.io/badge/CodeChef-3%E2%98%85%20%7C%20Rating%201624-5B4638?style=for-the-badge&logo=codechef&logoColor=white&labelColor=0D1117)
+![Codeforces](https://img.shields.io/badge/Codeforces-Rating%201057-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=0D1117)
+
+`🎓 Certifications`
+
+![AWS](https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white&labelColor=0D1117)
+![Cisco](https://img.shields.io/badge/Cisco-CCNA%3A%20Intro%20to%20Networks-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white&labelColor=0D1117)
+![NPTEL](https://img.shields.io/badge/NPTEL-IoT%20%26%20Data%20Analytics%20%7C%20Top%205%25-2E7D32?style=for-the-badge&labelColor=0D1117)
+![CodeBasics](https://img.shields.io/badge/CodeBasics-GenAI%20to%20Agentic%20AI-6C2BD9?style=for-the-badge&labelColor=0D1117)
+
+<sub>🎓 <b>B.E. CSE (AI & ML)</b> · Chennai Institute of Technology · CGPA <b>8.99</b> · 2024–2028 &nbsp;|&nbsp; 💼 AI Center of Excellence, CIT</sub>
+
+</div>
+
+---
+
 ## 📊 GitHub Analytics
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=RamInTech&show_icons=true&hide_rank=false&theme=tokyonight&bg_color=0D1117&title_color=22D3EE&icon_color=7C3AED&text_color=C9D1D9&border_color=21262D" alt="GitHub Stats"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=RamInTech&theme=tokyonight&background=0D1117&ring=22D3EE&fire=7C3AED&currStreakLabel=22D3EE&sideLabels=C9D1D9&dates=8B949E&border=21262D" alt="GitHub Streak"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=RamInTech&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=22D3EE&icon_color=7C3AED&text_color=C9D1D9&ring_color=22D3EE" alt="GitHub Stats"/>
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=RamInTech&hide_border=true&background=00000000&ring=22D3EE&fire=7C3AED&currStreakLabel=22D3EE&sideLabels=C9D1D9&dates=8B949E&stroke=7C3AED" alt="GitHub Streak"/>
 
-<img width="495" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RamInTech&layout=compact&theme=tokyonight&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9&border_color=21262D&langs_count=10" alt="Top Languages"/>
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RamInTech&layout=compact&hide_border=true&bg_color=00000000&title_color=22D3EE&text_color=C9D1D9&langs_count=12" alt="Top Languages"/>
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=RamInTech&theme=tokyo-night&bg_color=0D1117&color=22D3EE&line=7C3AED&point=ffffff&hide_border=true&area=true" alt="Activity Graph"/>
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=RamInTech&bg_color=00000000&color=22D3EE&line=7C3AED&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Activity Graph"/>
 
-<img width="98%" src="https://github-profile-trophy.vercel.app/?username=RamInTech&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies"/>
+<img width="98%" src="https://github-profile-trophy.vercel.app/?username=RamInTech&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies"/>
 
-</div>
+<!-- Contribution snake — requires the GitHub Action in .github/workflows/snake.yml -->
+<img src="https://raw.githubusercontent.com/RamInTech/RamInTech/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake"/>
 
-<!-- Contribution snake — requires the GitHub Action in .github/workflows/snake.yml (see profile setup notes) -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/RamInTech/RamInTech/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake"/>
 </div>
 
 ---
