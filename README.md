@@ -173,13 +173,11 @@ Identifies fish/marine species from underwater audio — an applied-ML project i
 <div align="center">
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=RamInTech&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=22D3EE&icon_color=7C3AED&text_color=C9D1D9&ring_color=22D3EE" alt="GitHub Stats"/>
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=RamInTech&hide_border=true&background=00000000&ring=22D3EE&fire=7C3AED&currStreakLabel=22D3EE&sideLabels=C9D1D9&dates=8B949E&stroke=7C3AED" alt="GitHub Streak"/>
+<img height="170" src="https://streak-stats.demolab.com/?user=RamInTech&hide_border=true&background=00000000&ring=22D3EE&fire=7C3AED&currStreakLabel=22D3EE&sideLabels=C9D1D9&dates=8B949E&stroke=7C3AED" alt="GitHub Streak"/>
 
 <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RamInTech&layout=compact&hide_border=true&bg_color=00000000&title_color=22D3EE&text_color=C9D1D9&langs_count=12" alt="Top Languages"/>
 
 <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=RamInTech&bg_color=00000000&color=22D3EE&line=7C3AED&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Activity Graph"/>
-
-<img width="98%" src="https://github-profile-trophy.vercel.app/?username=RamInTech&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies"/>
 
 <!-- Contribution snake — requires the GitHub Action in .github/workflows/snake.yml -->
 <img src="https://raw.githubusercontent.com/RamInTech/RamInTech/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake"/>
@@ -211,7 +209,7 @@ Identifies fish/marine species from underwater audio — an applied-ML project i
 
 <div align="center">
 
-<img src="https://github-readme-quotes.herokuapp.com/quote?theme=tokyonight&animation=default&border=true&quoteCategory=programming" alt="Dev quote"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev quote"/>
 
 <sub><i>Always building. Always learning.</i> 🚀</sub>
 
