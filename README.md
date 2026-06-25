@@ -118,11 +118,11 @@ A security dashboard that flags phishing across two surfaces — suspicious URLs
 - **Features:** URL phishing detection, email phishing detection, and an analytics dashboard (screenshots in the repo).
 - **Stack:** `React` · `TypeScript` · `Tailwind` · `shadcn/ui` · `Python` ML backend
 
-### 🚦 [Road Safety Intervention GPT](https://github.com/RamInTech/Road_Safety_Intervention_GPT) — RAG assistant for road safety
-A retrieval-augmented assistant grounded in a curated road-safety knowledge base, served through a web UI.
+### 📚 [IntelliLearn — Smart Study Assistant](https://github.com/RamInTech/IntelliLearn-Smart_Study_Assistant) — RAG over your own study material
+Upload notes or textbooks (including scanned PDFs) and ask questions — a retrieval-augmented study assistant whose answers stay grounded in your own documents.
 
-- **Architecture:** `RAG_Model` retrieval over a ~260KB curated `knowledge_base.json` → Python API → React/TypeScript frontend.
-- **Stack:** `Python` · `RAG` · `React` · `TypeScript`
+- **Architecture:** PDF/image ingestion with **OCR** (Tesseract + pdf2image) → sentence-transformer embeddings → **FAISS** vector search → **LangChain** + a Hugging Face model for grounded responses, served via **FastAPI** to a web frontend.
+- **Stack:** `FastAPI` · `LangChain` · `FAISS` · `sentence-transformers` · `Transformers` · `PyTorch` · `Tesseract OCR`
 
 ### 🔊 [Underwater Sound Classification](https://github.com/RamInTech/Underwater_Sound_Classification) — Research-grounded audio ML
 Identifies fish/marine species from underwater audio — an applied-ML project implemented from a published research paper that's included in the repo.
@@ -130,7 +130,7 @@ Identifies fish/marine species from underwater audio — an applied-ML project i
 - **Approach:** audio feature extraction → species classification model, with a runnable demo app and a model test harness.
 - **Stack:** `Python` · `audio ML` · `NumPy` · grounded in peer-reviewed research
 
-> 🔬 **Also worth a look:** [IntelliLearn](https://github.com/RamInTech/IntelliLearn-Smart_Study_Assistant) — ML-powered study assistant · [RAG Chatbot for LCA Tool](https://github.com/RamInTech/RAG_Chabot_for_LCA-Tool) — retrieval assistant for life-cycle assessment · [air_mouse](https://github.com/RamInTech/air_mouse) — Android (Kotlin) gesture mouse.
+> 🔬 **Also worth a look:** [Road Safety Intervention GPT](https://github.com/RamInTech/Road_Safety_Intervention_GPT) — RAG over a curated road-safety knowledge base · [RAG Chatbot for LCA Tool](https://github.com/RamInTech/RAG_Chabot_for_LCA-Tool) — retrieval assistant for life-cycle assessment · [air_mouse](https://github.com/RamInTech/air_mouse) — Android (Kotlin) gesture mouse.
 
 ---
 
