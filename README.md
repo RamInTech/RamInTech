@@ -81,7 +81,7 @@ I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Techn
 <br/><br/>
 
 <b>📱 Mobile · Tooling</b><br/>
-<img src="https://skillicons.dev/icons?i=androidstudio,gradle,git,github,bun,vercel,linux&theme=dark" alt="Android Studio, Gradle, Git, GitHub, Bun, Vercel, Linux" height="48" />
+<img src="https://skillicons.dev/icons?i=androidstudio,gradle,git,github,vercel&theme=dark" alt="Android Studio, Gradle, Git, GitHub, Bun, Vercel, Linux" height="48" />
 
 </div>
 
