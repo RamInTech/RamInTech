@@ -187,14 +187,7 @@ Identifies fish/marine species from underwater audio — an applied-ML project i
 
 ---
 
-## 🎯 Current Focus
 
-- 🛰️ Shipping **SpatialAI**: lower latency, better scene-graph reasoning, fully on-device.
-- 🧩 Improving **RAG quality** — retrieval, grounding, and evaluation — across my assistant projects.
-- ⚡ **Latency-aware ML**: profiling pipelines and cutting redundant inference (change-gates, frame intervals).
-- 🌐 Tightening my **full-stack** craft: typed APIs, tests, and clean deployments.
-
----
 
 ## 🌐 Connect
 
