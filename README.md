@@ -65,8 +65,6 @@ I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Techn
 
 <b>🎨 Frontend</b><br/>
 <img src="https://skillicons.dev/icons?i=react,vite,tailwind,html,css&theme=dark" alt="React, Vite, Tailwind, HTML, CSS" height="48" />
-<br/>
-<img src="https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
 
 <br/><br/>
 
