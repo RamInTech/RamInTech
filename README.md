@@ -7,7 +7,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:7C3AED,100:22D3EE&height=200&section=header&text=Ramkumar%20M&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Applied%20AI%20%C2%B7%20Computer%20Vision%20%C2%B7%20Full-Stack%20Engineering&descAlignY=60&descSize=18" width="100%" alt="Ramkumar M banner"/>
 
 <a href="https://github.com/RamInTech">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=720&lines=I+build+real-time+computer-vision+systems;On-device+AI+%E2%80%A2+RAG+%E2%80%A2+Edge+inference;Turning+ML+research+into+shipped+products;FastAPI+back+ends+%E2%80%A2+React+%2B+TypeScript+front+ends" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=720&lines=AI+Engineer+%E2%80%A2+System-level+Engineer+%E2%80%A2+Software+Developer;I+build+real-time+computer-vision+%2B+agentic+AI+systems;Distributed+DB+internals+%E2%80%94+Raft+%E2%80%A2+MVCC+%E2%80%A2+LSM+%E2%80%A2+2PC;On-device+AI+%E2%80%A2+RAG+%E2%80%A2+Edge+inference;Turning+ML+research+into+shipped+products" alt="Typing SVG"/>
 </a>
 
 <br/>
@@ -23,12 +23,12 @@
 
 ## 🧭 About Me
 
-I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Technology** (CGPA 9.08) and an applied-AI + full-stack developer who turns models into things people can actually use. My work sits at the seam between **machine learning** and **product** — real-time computer vision, retrieval-augmented assistants, agentic workflows, and the FastAPI + React plumbing that ships them.
+I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Technology** (CGPA 8.99) and an applied-AI + full-stack developer who turns models into things people can actually use. My work sits at the seam between **machine learning** and **product** — real-time computer vision, retrieval-augmented assistants, agentic workflows, and the FastAPI + React plumbing that ships them.
 
-- 🧠 **Working across** computer vision, speech/audio ML, and RAG/agentic systems — from YOLO + depth models to Whisper transcription, embeddings, and LangChain/LangGraph workflows.
-- 🛠️ **Full-stack by default** — React + TypeScript + Tailwind front ends on FastAPI back ends, with SQLAlchemy, payments, and real deployments.
+- 🧠 **Working across** AI and systems engineering — real-time computer vision and speech/audio ML ([SpatialAI](https://github.com/RamInTech/SpatialAI), [AI Interview Twin](https://github.com/RamInTech/AI_Interview_Twin)), generative & agentic AI with RAG, embeddings, and LangChain/LangGraph workflows, and **system-level database internals** in Rust — Raft consensus, MVCC/LSM storage, distributed transactions ([arcux](https://github.com/RamInTech/arcux)).
+- 🛠️ **AI engineer × system-level engineer** — I work at both altitudes: building and serving models, and hand-rolling the infrastructure underneath them (consensus, storage engines, gRPC services) — with the software engineering to ship both as real products.
 - 🏆 **Hackathon builder** — international winner at *AI for Sustainability (UAE)* and ₹50K runner-up at *TI FORGE*; I like shipping working prototypes under pressure.
-- 🌱 **Currently going deeper on** edge/on-device LLM inference, retrieval quality, and latency-aware ML pipelines.
+- 🌱 **Currently going deeper on** edge/on-device LLM inference, retrieval quality, latency-aware ML pipelines, and **system-level DB internals** — consensus, storage engines, and distributed transactions.
 - 🤝 **Open to collaborating on** applied AI, computer vision, and developer tools.
 
 ---
@@ -74,6 +74,16 @@ I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Techn
 <img src="https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
 <img src="https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=white" alt="Razorpay" />
 <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
+
+<br/><br/>
+
+<b>🗄️ Systems · DB & Distributed Internals</b><br/>
+<img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+<img src="https://img.shields.io/badge/tonic%20gRPC-2A6EBB?style=for-the-badge" alt="tonic gRPC" />
+<img src="https://img.shields.io/badge/Raft%20Consensus-B7410E?style=for-the-badge" alt="Raft Consensus" />
+<img src="https://img.shields.io/badge/Percolator%202PC-4B0082?style=for-the-badge" alt="Percolator 2PC" />
+<img src="https://img.shields.io/badge/MVCC%20%2F%20LSM%20%2F%20WAL-1A7F64?style=for-the-badge" alt="MVCC / LSM / WAL" />
+<img src="https://img.shields.io/badge/HLC%20%2B%20LWW-7C3AED?style=for-the-badge" alt="HLC + LWW" />
 
 <br/><br/>
 
