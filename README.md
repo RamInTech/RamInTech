@@ -25,8 +25,6 @@
 
 I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Technology** (CGPA 8.99) and an applied-AI + full-stack developer who turns models into things people can actually use. My work sits at the seam between **machine learning** and **product** — real-time computer vision, retrieval-augmented assistants, agentic workflows, and the FastAPI + React plumbing that ships them.
 
-- 🛰️ **Building [SpatialAI](https://github.com/RamInTech/SpatialAI)** — a real-time, fully-local **navigation aid for the visually impaired**: YOLO-World detection + Depth Anything V2 depth → a metric 3D scene graph → an on-device SLM (Phi-3-mini) that speaks one useful sentence (*"backpack 0.9 m ahead — step right"*).
-- 🗄️ **Building [arcux](https://github.com/RamInTech/arcux)** — a from-scratch **distributed transactional key-value database** in **Rust**: hand-rolled Raft, Percolator 2PC, and an MVCC/LSM storage engine, with **per-table tunable consistency** (CP or AP, declared in the schema).
 - 🧠 **Working across** computer vision, speech/audio ML, and RAG/agentic systems — from YOLO + depth models to Whisper transcription, embeddings, and LangChain/LangGraph workflows.
 - 🛠️ **Full-stack by default** — React + TypeScript + Tailwind front ends on FastAPI back ends, with SQLAlchemy, payments, and real deployments.
 - 🏆 **Hackathon builder** — international winner at *AI for Sustainability (UAE)* and ₹50K runner-up at *TI FORGE*; I like shipping working prototypes under pressure.
@@ -88,19 +86,19 @@ I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Techn
 
 ## 🚀 Featured Projects
 
-### 🛰️ [SpatialAI](https://github.com/RamInTech/SpatialAI) — Real-time navigation aid for the visually impaired
-Turns a single RGB camera into spoken, **metric** spatial guidance — *"backpack 0.9 m directly ahead blocking your path, step right"* — running **fully on-device**, no cloud.
-
-- **Architecture:** parallel perception branches — open-vocabulary detection (**YOLO-World**) + dense monocular depth (**Depth Anything V2**) → pinhole back-projection to 3D → tracked, dwell-filtered **scene graph** → on-device **SLM** (Phi-3-mini INT4, llama.cpp) → neural **TTS** (Kokoro-82M).
-- **Engineering details:** threaded capture/inference so latencies overlap, IOU tracking + Hungarian matching + EMA smoothing for stability, a semantic change-gate to suppress repeats, camera-intrinsics calibration, a `pytest` suite, and CSV latency profiling.
-- **Stack:** `Python` · `PyTorch` · `YOLO-World` · `Depth Anything V2` · `llama.cpp` · `sentence-transformers` · `OpenCV` · `Kokoro TTS`
-
 ### 🗄️ [arcux](https://github.com/RamInTech/arcux) — Distributed transactional KV database with per-table tunable consistency
 A from-scratch, range-sharded, Raft-replicated database in **Rust** where each table declares its own consistency regime at creation — `CP` (Percolator 2PC + Raft + timestamp oracle → Snapshot Isolation) or `AP` (leaderless W=1 + HLC + Last-Writer-Wins → always available) — **one storage engine, one cluster, two write paths**.
 
 - **Architecture:** keyspace range-sharded into regions (CockroachDB/TiKV-style); each CP region runs its own independent **Raft group** with majority commit, while AP regions take leaderless HLC-stamped writes with best-effort fan-out — all landing in the same **WAL + MVCC-over-LSM** storage engine.
 - **Engineering details:** consensus, storage engine, and transaction protocol are **hand-rolled** (no `raft-rs`, no RocksDB) — leader election, log replication, snapshotting, and membership changes proven deterministically; crash recovery, property tests, a Placement Driver (timestamp oracle + region registry), and a region-aware async client SDK with transparent leader-following.
 - **Stack:** `Rust` · `tonic gRPC` · `Raft` · `Percolator 2PC` · `MVCC / LSM` · `HLC + LWW` · dual MIT/Apache-2.0
+
+### 🛰️ [SpatialAI](https://github.com/RamInTech/SpatialAI) — Real-time navigation aid for the visually impaired
+Turns a single RGB camera into spoken, **metric** spatial guidance — *"backpack 0.9 m directly ahead blocking your path, step right"* — running **fully on-device**, no cloud.
+
+- **Architecture:** parallel perception branches — open-vocabulary detection (**YOLO-World**) + dense monocular depth (**Depth Anything V2**) → pinhole back-projection to 3D → tracked, dwell-filtered **scene graph** → on-device **SLM** (Phi-3-mini INT4, llama.cpp) → neural **TTS** (Kokoro-82M).
+- **Engineering details:** threaded capture/inference so latencies overlap, IOU tracking + Hungarian matching + EMA smoothing for stability, a semantic change-gate to suppress repeats, camera-intrinsics calibration, a `pytest` suite, and CSV latency profiling.
+- **Stack:** `Python` · `PyTorch` · `YOLO-World` · `Depth Anything V2` · `llama.cpp` · `sentence-transformers` · `OpenCV` · `Kokoro TTS`
 
 ### 🎙️ [AI Interview Twin](https://github.com/RamInTech/AI_Interview_Twin) — Real-time mock-interview scorer
 A full-stack system that runs a mock interview end-to-end: generate questions → record spoken answers → transcribe → score → coach.
