@@ -33,6 +33,16 @@ I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Techn
 
 ---
 
+<div align="center">
+
+### 💭 *“Talk is cheap. Show me the code.”*
+
+<sub>— <b>Linus Torvalds</b> · creator of Linux & Git</sub>
+
+</div>
+
+---
+
 ## 🧰 Tech Stack
 
 <div align="center">
@@ -116,7 +126,12 @@ A full-stack system that runs a mock interview end-to-end: generate questions �
 - **Pipeline:** LLM question generation → in-browser audio capture (`MediaRecorder`) → **Whisper** transcription → **Communication** + **Technical Correctness** scoring → placement-ready feedback.
 - **Stack:** `FastAPI` · `faster-whisper` · `PyTorch` · `Transformers` · `librosa` · `spaCy` · `React` · `TypeScript` · MIT-licensed
 
+### 📡 [Adya LinkedIn Insights](https://github.com/RamInTech/adya-linkedin-insights) — Brand-mention analytics ([Live](https://adya-linkedin-insights.onrender.com))
+A LinkedIn monitoring stack that turns brand mentions into a structured, explorable signal feed.
 
+- **Features:** trigger extraction from the UI (SerpApi/Apify), FastAPI normalizes timestamps/mention-types, dashboard with summary cards, charts, advanced filters, and CSV export.
+- **Engineering details:** deployed on **Render**, **Vitest + Testing Library** test harness, clean documented API surface.
+- **Stack:** `FastAPI` · `React` · `TypeScript` · `Tailwind` · `shadcn/ui` · `SerpApi` · `Apify`
 
 ### 🛡️ [PhishShield](https://github.com/RamInTech/PhishShield) — URL & email phishing detection
 A security dashboard that flags phishing across two surfaces — suspicious URLs and email content — backed by ML models.
