@@ -33,15 +33,6 @@ I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Techn
 
 ---
 
-<div align="center">
-
-### 💭 *“Talk is cheap. Show me the code.”*
-
-<sub>— <b>Linus Torvalds</b> · creator of Linux & Git</sub>
-
-</div>
-
----
 
 ## 🧰 Tech Stack
 
