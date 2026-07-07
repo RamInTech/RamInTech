@@ -23,7 +23,7 @@
 
 ## 🧭 About Me
 
-I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Technology** (CGPA 8.99) and an applied-AI + full-stack developer who turns models into things people can actually use. My work sits at the seam between **machine learning** and **product** — real-time computer vision, retrieval-augmented assistants, agentic workflows, and the FastAPI + React plumbing that ships them.
+I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Technology** (CGPA 9.08) and an applied-AI + full-stack developer who turns models into things people can actually use. My work sits at the seam between **machine learning** and **product** — real-time computer vision, retrieval-augmented assistants, agentic workflows, and the FastAPI + React plumbing that ships them.
 
 - 🧠 **Working across** computer vision, speech/audio ML, and RAG/agentic systems — from YOLO + depth models to Whisper transcription, embeddings, and LangChain/LangGraph workflows.
 - 🛠️ **Full-stack by default** — React + TypeScript + Tailwind front ends on FastAPI back ends, with SQLAlchemy, payments, and real deployments.
