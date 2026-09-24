@@ -69,7 +69,7 @@ I’m **Ramkumar** — a CSE (AI & ML) undergrad at **Chennai Institute of Techn
 <br/><br/>
 
 <b>⚙️ Backend · Data · Cloud</b><br/>
-<img src="https://skillicons.dev/icons?i=fastapi,sqlite,firebase,aws&theme=dark" alt="FastAPI, SQLite, Firebase, AWS" height="48" />
+<img src="https://skillicons.dev/icons?i=fastapi,postgres,sqlite,firebase,aws&theme=dark" alt="FastAPI, PostgreSQL, SQLite, Firebase, AWS" height="48" />
 <br/>
 <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
 <img src="https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs" />
@@ -103,6 +103,14 @@ A from-scratch, range-sharded, Raft-replicated database in **Rust** where each t
 - **Architecture:** keyspace range-sharded into regions (CockroachDB/TiKV-style); each CP region runs its own independent **Raft group** with majority commit, while AP regions take leaderless HLC-stamped writes with best-effort fan-out — all landing in the same **WAL + MVCC-over-LSM** storage engine.
 - **Engineering details:** consensus, storage engine, and transaction protocol are **hand-rolled** (no `raft-rs`, no RocksDB) — leader election, log replication, snapshotting, and membership changes proven deterministically; crash recovery, property tests, a Placement Driver (timestamp oracle + region registry), and a region-aware async client SDK with transparent leader-following.
 - **Stack:** `Rust` · `tonic gRPC` · `Raft` · `Percolator 2PC` · `MVCC / LSM` · `HLC + LWW` · dual MIT/Apache-2.0
+
+### 💳 [Zero-Trust Payment Authorization for AI Agents](https://github.com/RamInTech/Zero-Trust-Payment) — A safety layer that lets an AI agent spend money on Razorpay without being trusted
+An authorization and idempotency layer for agent-initiated payments (Razorpay AI Buildathon, Track 01). The LLM is **untrusted input**: it can only *propose* a purchase — a human confirms it, and a deterministic policy engine checks it against a merchant-defined mandate before anything reaches the payment provider.
+
+- **Architecture:** LLM intent parser (**Groq**) returns a `ParsedIntent` with no price or approval field → human confirmation → price re-validated against the catalog → **policy engine** (per-transaction cap, item allowlist, expiry, sliding-window velocity limit) → idempotent executor → Razorpay order → **double-entry ledger** + reconciler, with every step written to an append-only, hash-chained audit log.
+- **Engineering details:** at-most-once execution via a **Postgres** primary-key claim (`ON CONFLICT` + `FOR UPDATE` + advisory locks); a payment timeout is frozen as `PENDING_VERIFICATION` instead of retried; a stale claim is checked against the provider, with a fencing token, before it is reclaimed; ledger postings are refused at `COMMIT` unless they balance; audit-log `UPDATE` / `DELETE` / `TRUNCATE` are blocked by database triggers.
+- **Verification:** a hostile-agent suite against the live API (**14/14 attacks defended**, 0 unintended charges) and a **chaos harness** that kills database connections and SIGKILLs processes mid-payment (**100/100 rounds correct**) — which exposed a real double-charge bug, since fixed. 685 tests. Order creation uses Razorpay's live test-mode API; capture is simulated and labelled as such.
+- **Stack:** `Python` · `FastAPI` · `PostgreSQL` · `Razorpay API` · `Groq LLM` · `PyNaCl` · `React`
 
 ### 🛰️ [SpatialAI](https://github.com/RamInTech/SpatialAI) — Real-time navigation aid for the visually impaired
 Turns a single RGB camera into spoken, **metric** spatial guidance — *"backpack 0.9 m directly ahead blocking your path, step right"* — running **fully on-device**, no cloud.
