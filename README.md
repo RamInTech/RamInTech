@@ -6,7 +6,9 @@
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/ramkumarm06"><img src="./links/linkedin.svg" alt="LinkedIn" height="38"/></a><a href="https://github.com/RamInTech"><img src="./links/github.svg" alt="GitHub" height="38"/></a><a href="mailto:ramkumarm0621@gmail.com"><img src="./links/email.svg" alt="Email" height="38"/></a><a href="https://leetcode.com/u/RamkumarM_/"><img src="./links/leetcode.svg" alt="LeetCode" height="38"/></a><a href="https://www.codechef.com/users/ramkumarm01"><img src="./links/codechef.svg" alt="CodeChef" height="38"/></a><a href="https://codeforces.com/profile/RamkumarM"><img src="./links/codeforces.svg" alt="Codeforces" height="38"/></a>
+<a href="https://www.linkedin.com/in/ramkumarm06"><img src="./links/linkedin.svg" alt="LinkedIn" height="38"/></a><a href="https://github.com/RamInTech"><img src="./links/github.svg" alt="GitHub" height="38"/></a><a href="https://leetcode.com/u/RamkumarM_/"><img src="./links/leetcode.svg" alt="LeetCode" height="38"/></a><a href="https://www.codechef.com/users/ramkumarm01"><img src="./links/codechef.svg" alt="CodeChef" height="38"/></a><a href="https://codeforces.com/profile/RamkumarM"><img src="./links/codeforces.svg" alt="Codeforces" height="38"/></a>
+
+Reach me at <a href="mailto:ramkumarm0621@gmail.com">ramkumarm0621@gmail.com</a>
 
 ![Profile views](https://komarev.com/ghpvc/?username=RamInTech&style=flat-square&color=7C3AED&label=Profile+views)
 
